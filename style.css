@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+body{
+    background-color: rgb(124, 177, 220);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.round{
+    margin: 20px;
+}
+.canvas{
+    display: grid;
+    align-content: center;
+    background-color: whitesmoke;
+    height: 500px;
+    width: 750px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 450px;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 30px;
+    
+}
+
+button{
+    transform: translateX(50px);
+    background-color: rgb(124, 177, 220); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+img{
+    border-radius: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#results{
+    background-color: whitesmoke;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+#quit{
+    background-color: whitesmoke;
+    color: rgb(124, 177, 220);
+    transform: translateX(-0px);
+    margin: 20px;
+}
+
+button:hover{
+    background-color: black;
+}
+#quit:hover{
+    background-color: black;
+}
